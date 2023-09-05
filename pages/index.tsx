@@ -6,7 +6,7 @@ import { EntryList, NewEntry } from '@/components/ui';
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function HomePage():NextPage {
+export default function HomePage() {
   return (
     <Layout title='Home - OpenJira'>
         <Grid container spacing={2}>
